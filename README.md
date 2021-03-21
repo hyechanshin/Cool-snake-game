@@ -1,4 +1,4 @@
-Check my CV project by clicking this link https://coolsnakegame.herokuapp.com/
+Check my project by clicking this link https://coolsnakegame.herokuapp.com/
 
 # Cool-snake-game
 
