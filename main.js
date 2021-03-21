@@ -157,15 +157,11 @@ document.body.addEventListener('keydown', keyDown);
 function keyDown(event){
     //up
     if(event.keyCode == 38){
-        if ((SnakePart.queue.length ? SnakePart.queue[0] : SnakePart.y) != 1) 
-            SnakePart.queue.unshift(3);
-        if (SnakePart.queue.length)
-        {
-            yVelocity = SnakePart.queue.pop();
+        if(yVelocity == 1)
+            return;
         yVelocity = -1;
         xVelocity = 0;
         }
-    }
 
     //down
     if(event.keyCode == 40){
